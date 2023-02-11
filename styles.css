@@ -1,0 +1,38 @@
+body {
+ background-color: azure;
+}
+.header {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+img {
+  width: 320px;
+  height: 320px;
+}
+
+.description {
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+#pad {
+  padding-left: 0%;
+  margin: 4px, 4px;
+  width: 400px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+div,
+.right,
+.left {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  text-align: center;
+  overflow-block: auto;
+  overflow: auto;
+}
