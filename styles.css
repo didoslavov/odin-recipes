@@ -1,5 +1,5 @@
 body {
- background-color: azure;
+  background-color: azure;
 }
 .header {
   font-family: 'Courier New', monospace;
@@ -16,16 +16,17 @@ img {
 }
 
 .img {
-  position:fixed;
+  position: fixed;
   left: 750px;
 }
 
 a {
-    box-shadow: inset 0 0 0 0 #898c8e;
-    color: #171818;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s cubic-bezier(0.075, 0.82, 0.165, 1), box-shadow .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: inset 0 0 0 0 #898c8e;
+  color: #171818;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1),
+    box-shadow 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   font-size: x-large;
 }
 a:hover {
@@ -34,8 +35,8 @@ a:hover {
 }
 
 .description {
-    padding-left: 10%;
-    padding-bottom: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
 }
 
 #pad {
@@ -52,10 +53,29 @@ div,
 .right,
 .left {
   display: inline-block;
-  width: 350px;
+  width: 420px;
   vertical-align: top;
   text-align: center;
   overflow-block: auto;
   overflow: auto;
+}
+
+#button {
+  position: absolute;
+  left: 20px;
+  bottom: 820px;
+  box-shadow: inset 10 10 10 10 #ba8a22;
+  color: #171818;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+  font-size: x-large;
+  font-weight: 800;
+  background: url(img/github-mark-white.png) no-repeat;
+}
+
+#button:hover {
+  box-shadow: inset 1000px 0 0 0 #ba8a22;
+  color: rgb(4, 3, 3);
 }
 
